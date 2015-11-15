@@ -1,16 +1,17 @@
-# Projeto Original Media
+# Projeto Original Media - Example 
 
-Framework usado:
+Framework development:
 
 Foundation
 http://foundation.zurb.com/docs/index.html
 
-Pre processador:
+Pre processor:
 http://http://sass-lang.com/
 
-Junto com:
+With:
 http://compass-style.org/
 
-Sprite gerado com compass.
+Sprite generate with compass.
 
-Arquivos separados por blocos e funcoes separadas.
+
+Archives separates with blocks and functions.
