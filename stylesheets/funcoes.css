@@ -1,0 +1,69 @@
+/* line 26, ../sass/funcoes.scss */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 32, ../sass/funcoes.scss */
+.box-shadow-nav {
+  -moz-box-shadow: #000 2px 2px 5px;
+  -webkit-box-shadow: #000 2px 2px 5px;
+  box-shadow: #000 2px 2px 5px;
+}
+
+/* line 37, ../sass/funcoes.scss */
+.borda-padrao {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 42, ../sass/funcoes.scss */
+.negrito {
+  font-weight: bold !important;
+  font-size: 0.875em;
+}
+
+/* line 46, ../sass/funcoes.scss */
+.lista-padrao {
+  display: inline-block;
+}
+
+/* line 50, ../sass/funcoes.scss */
+.linkpadrao {
+  font-size: 0.875em;
+  color: #524600;
+}
+
+/* line 55, ../sass/funcoes.scss */
+#v-gradient {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZDYxYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkYmMwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6d61a), color-stop(100%, #ddbc00));
+  background-image: -moz-linear-gradient(#f6d61a, #ddbc00);
+  background-image: -webkit-linear-gradient(#f6d61a, #ddbc00);
+  background-image: linear-gradient(#f6d61a, #ddbc00);
+}
+
+/* line 58, ../sass/funcoes.scss */
+#carrinho {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RmYzMxYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RiYmMwMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfc31b), color-stop(100%, #dbbc01));
+  background-image: -moz-linear-gradient(#dfc31b, #dbbc01);
+  background-image: -webkit-linear-gradient(#dfc31b, #dbbc01);
+  background-image: linear-gradient(#dfc31b, #dbbc01);
+}
+
+/* line 62, ../sass/funcoes.scss */
+.linksemtexto {
+  display: block;
+  text-indent: -999em;
+  font-size: 0;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+}

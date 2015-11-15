@@ -1,0 +1,64 @@
+//Funcoes Gerais
+@import "compass/css3";
+
+//Cores
+$fundoprincipal : #dbbc01;
+$corfonteheader: #524600;
+$corlink: #524600;
+
+//Transformar PX em EM
+
+$browser-context: 16; 
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+//Incluir Bordas
+.box { 
+	@include border-radius(10px);
+ }
+
+
+//Sombra no menu
+.box-shadow-nav {
+  @include box-shadow(#000 2px 2px 5px);
+}
+
+//Bordas
+.borda-padrao{
+  @include border-radius(5px);
+}
+
+//Negrito
+.negrito{
+	font-weight:bold!important;
+	font-size:em(14);
+}
+.lista-padrao{
+	display:inline-block;
+}
+//Link padrao
+.linkpadrao{
+	font-size:em(14);
+	color: $corlink;
+}
+// Gradiente
+#v-gradient {
+  @include background-image(linear-gradient(#f6d61a, #ddbc00));
+}
+#carrinho{
+  @include background-image(linear-gradient(#dfc31b, #dbbc01));
+}
+//LINK Sem texto
+.linksemtexto{
+	display:block;text-indent:-999em;	font-size:0; width:100%; cursor:pointer; height:100%
+}

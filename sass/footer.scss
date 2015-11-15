@@ -1,0 +1,37 @@
+@import "funcoes.scss";
+@import "header.scss";
+
+.footer{
+	margin:em(20) 0 0 0;
+	background: $fundoprincipal url('../images/footer/_footer_07.jpg') top repeat-x;
+}
+.footer fieldset{position:relative; margin:em(5) 0;}
+.assineja{
+			color: #fff;
+	strong{
+		font-size:em(14);
+	}
+	p{
+		font-size:em(10);
+	}
+}
+.main_news{
+	@extend .main_search;
+	background:#fff;	
+}
+.footer fieldset input[type=submit]{
+	background:#d1b400;
+	position:absolute;
+	right:em(5);
+	top:em(5);
+    height:80%;
+    width:20%;
+    color:white;
+    text-align: center;
+    font-size: em(13);
+    cursor:pointer;
+    border:em(1) solid #cbaf00;
+}
+.footer_group--two{
+	margin:em(20) 0;
+}
